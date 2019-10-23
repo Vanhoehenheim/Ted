@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web&display=swap);
+
+
+
+@font-face {
+  font-family: "Helvetica_Medium";
+  src: url("/assests/Neue/HelveticaNeue-Medium.otf");
+}
+
+@font-face {
+  font-family: "Helvetica_Light";
+  src: url("/assests/Neue/HelveticaNeue-Light.otf");
+}
+
+/* @font-face {
+  font-family: "Helvetica-Light";
+  src: url("/assests/Neue/HelveticaNeue-Thin.otf");
+} */
+@font-face {
+  font-family: "Helvetica-Light";
+  src: url("/assests/Helvetica/Helvetica-Light.otf");
+}
+
+
+@font-face {
+  font-family: "Nexa";
+  src: url("/assests/Nexa/NexaBold.otf");
+}
+
+@font-face {
+  font-family: "Nexa-Light";
+  src: url("/assests/Nexa/Nexa-Light.otf");
+}
+
+
+/*-------------------------------------------------*/
+/*---------------------- TITLE --------------------*/
+/*-------------------------------------------------*/
+.second {
+  position: absolute;
+  background-image: url(/assests/bg1.jpg);
+  background-size: cover;
+  ;
+}
+
+
+
+.container {
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.title {
+
+  text-shadow: 2px 1px 2px #e62b1e;
+  font-size: 3em;
+  font-family: 'Nexa';
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+
+#line {
+  display: block;
+  height: 2px;
+  background-color: white;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.container2 {
+  color: white;
+  margin: 20px;
+}
+
+.textheading {
+  font-family: 'Helvetica_Medium';
+  font-weight: 500;
+  display: block;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 1.5em;
+}
+
+.textheading h3 {
+  margin: 0;
+}
+
+
+
+/*-------------------------------------------------*/
+/*--------------------- Content -------------------*/
+/*-------------------------------------------------*/
+
+a {
+  text-decoration: none;
+  color: #e62b1e;
+}
+
+
+#para {
+  font-family: 'Nexa-Light';
+  font-weight: 200;
+  text-align: justify;
+  margin: 8px 15px;
+  display: block;
+}
+
+sup {
+  color: #e62b1e;
+}
+
+#para p {
+
+
+  word-spacing: 8px;
+  line-height: 20px;
+
+  ;
+}
+
+/*-------------------------------------------------*/
+/*------------------ Responsive -------------------*/
+/*-------------------------------------------------*/
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+
+  .second {
+    background-repeat: no-repeat;
+
+  }
+
+  .container {
+    top: 20px;
+    position: absolute;
+  }
+
+  .container2 {
+    position: absolute;
+    top: 10%;
+  }
+
+
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 15px;
+
+
+  }
+
+  #line {
+    display: block;
+    height: 2px;
+    background-color: white;
+    content: " ";
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 0px;
+
+  }
+
+  #para {
+    margin: 20px;
+    word-spacing: 1px;
+    display: block;
+
+  }
+
+  #para2 {
+    margin: 10px;
+    word-spacing: 1px;
+    display: block;
+  }
+
+  p {
+    font-size: 12px;
+
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+}
