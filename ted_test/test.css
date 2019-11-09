@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web&display=swap);
+
+@font-face {
+  font-family: "Helvetica_Medium";
+  src: url("/assests/Neue/HelveticaNeue-Medium.otf");
+}
+
+@font-face {
+  font-family: "Helvetica_Light";
+  src: url("/assests/Neue/HelveticaNeue-Light.otf");
+}
+
+/* @font-face {
+  font-family: "Helvetica-Light";
+  src: url("/assests/Neue/HelveticaNeue-Thin.otf");
+} */
+@font-face {
+  font-family: "Helvetica-Light";
+  src: url("/assests/Helvetica/Helvetica-Light.otf");
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("/assests/Nexa/NexaBold.otf");
+}
+
+@font-face {
+  font-family: "Nexa-Light";
+  src: url("/assests/Nexa/Nexa-Light.otf");
+}
+.team_name {
+  background-image: url("/assests/bg1.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.sup {
+  color: #e62b1e;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e62b1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+.title {
+  text-shadow: 2px 1px 2px #e62b1e;
+  font-size: 2em;
+  font-family: "Nexa";
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#line {
+  display: block;
+  height: 2px;
+  background-color: white;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.modal-header {
+  margin: 0 auto;
+}
